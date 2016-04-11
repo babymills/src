@@ -10,7 +10,7 @@ public class add_remove_first {
         LinkedList<Integer> LL= new LinkedList<>();
         Random r = new Random();
 
-        // fill
+        // filln
         for (int i=0;i<1_000_000;i++){
             AL.add(i, r.nextInt(1000));
             LL.add(i, r.nextInt(1000));
